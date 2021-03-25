@@ -7,3 +7,12 @@ git add .
 git commit -m "adding files"
 git remote add origin https://github.com/yourusername/your-repo-name.git
 git push -u origin master
+
+Merge Branch:
+
+first commit and push all changes to the branch you are merging
+
+git checkout master
+git pull               # to update the state to the latest remote master state
+git merge develop      # to bring changes to local master from your develop branch
+git push origin master # push current HEAD to remote master branch
